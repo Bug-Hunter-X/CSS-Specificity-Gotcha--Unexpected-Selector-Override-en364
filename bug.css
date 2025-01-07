@@ -1,0 +1,1 @@
+The following CSS code snippet demonstrates a common issue that is often hard to debug. The issue is related to specificity and the cascade. The rule with higher specificity will override the rule with lower specificity. In this case, the `#box p` selector has higher specificity than the `.red` selector and the `p` selector. Therefore, the text will be blue, not red.
