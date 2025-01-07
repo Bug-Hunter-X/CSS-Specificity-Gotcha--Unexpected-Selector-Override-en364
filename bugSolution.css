@@ -1,0 +1,21 @@
+/*bugSolution.css*/
+#box {
+  color: blue;
+}
+
+#box p {
+  color: red !important; /*Solves the specificity issue by using !important*/
+}
+
+/*Alternative solution: increase the specificity of the .red selector*/
+#box .red {
+  color: red;
+}
+p.red {
+  color: red;
+}
+
+/*Another alternative solution: use a more specific selector for the text*/
+#box p.red {
+  color: red;
+}
